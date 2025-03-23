@@ -7,6 +7,14 @@ This is a demonstration math operations library.
 pip install lucaswangtool
 ```
 
+```python
+from lucaswangtool.core import MathOperations
+
+myInstance = MathOperations()
+result = myInstance.add(1,2)
+print(result)
+```
+
 # 在项目根目录执行
 python -m venv .venv  # 创建名为 .venv 的虚拟环境
 
